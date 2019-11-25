@@ -2,15 +2,14 @@
  * Module dependencies
  */
 
-var path = require('path');
-var Writable = require('stream').Writable;
-var Transform = require('stream').Transform;
-var concat = require('concat-stream');
-var _ = require('lodash');
-_.defaultsDeep = require('merge-defaults');
-var oss = require('ali-oss');
-var mime = require('mime');
-var co = require('co');
+var path = require("path");
+var Writable = require("stream").Writable;
+var Transform = require("stream").Transform;
+var concat = require("concat-stream");
+var _ = require("lodash");
+var oss = require("ali-oss");
+var mime = require("mime");
+var co = require("co");
 
 /**
  * skipper-aliyunoss
