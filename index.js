@@ -29,6 +29,7 @@ module.exports = function SkipperAliyunOSS(globalOpts) {
         accessKeySecret: globalOpts.secret,
         bucket: globalOpts.bucket,
         region: globalOpts.region || undefined,
+        timeout: globalOpts.timeout,
         secure: true
       });
 
@@ -84,6 +85,7 @@ module.exports = function SkipperAliyunOSS(globalOpts) {
         accessKeySecret: globalOpts.secret,
         bucket: globalOpts.bucket,
         region: globalOpts.region || undefined,
+        timeout: globalOpts.timeout,
         secure: true
       });
 
@@ -108,6 +110,7 @@ module.exports = function SkipperAliyunOSS(globalOpts) {
         accessKeySecret: globalOpts.secret,
         bucket: globalOpts.bucket,
         region: globalOpts.region || undefined,
+        timeout: globalOpts.timeout,
         secure: true
       });
 
@@ -147,6 +150,7 @@ module.exports = function SkipperAliyunOSS(globalOpts) {
           accessKeySecret: options.secret,
           bucket: options.bucket,
           region: globalOpts.region || undefined,
+          timeout: globalOpts.timeout,
           secure: true
         });
 
